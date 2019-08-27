@@ -100,15 +100,23 @@ Why are lines 12–19 indented?
 
 Run the program. What would happen if line 12 were moved before line 11 (and no longer indented)? 
 
+- Possibly an infinite loop.  Because the while loop will run while the color isn't red, and since the color can't change, it should keep running.
+
 Make that change and run the program again. To end any Python program, you can type ctrl-c.
 
 
 
 Open main9.py. What is happening on line 12? 
 
+- The while loop is still beginning.  Line 11 is new, and is a new variable
+
 What is the purpose of “count”? 
 
+- It keeps track of how many times the user has guessed.
+
 What is happening on line 22? 
+
+- The program is announcing how many tries it took to get the right color.
 
 Run the program.
 
@@ -118,3 +126,5 @@ Run the program.
 Commit your changes and push them back to the repository. 
 
 Did you do the extra credit?
+
+Yes.
